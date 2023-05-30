@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "build": "rimraf build && rollup -c rollup.config.js",
+    "prepare": "npm run build-ts",
     "test": "jest",
     "lint": "eslint src --ext .ts"
   },
