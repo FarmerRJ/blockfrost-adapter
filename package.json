@@ -10,8 +10,8 @@
     "build"
   ],
   "scripts": {
-    "prepare": "npm run build-ts",
     "build": "rimraf build && rollup -c rollup.config.js",
+    "prepare": "npm run build-ts",
     "test": "jest"
   },
   "keywords": [
