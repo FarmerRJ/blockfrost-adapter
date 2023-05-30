@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "rimraf build && rollup -c rollup.config.js",
-    "prepare": "npm run build-ts",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "keywords": [
