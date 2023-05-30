@@ -5,14 +5,13 @@
   "main": "./build/index.js",
   "module": "./build/index.es.js",
   "types": "./build/index.d.ts",
-  "type": "module",
   "files": [
     "build"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "build": "rimraf build && rollup -c rollup.config.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
   },
   "keywords": [
     "minswap",
