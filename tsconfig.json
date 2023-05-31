@@ -10,5 +10,8 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "strict": true
-  }
+  },
+  "exclude": ["build"],
+  "include": ["src"]
 }
+
