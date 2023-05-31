@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2021",
-    "module": "CommonJS",
+    "module": "ES2020",
     "moduleResolution": "node",
     "lib": ["ES2021", "DOM"],
     "declaration": true,
@@ -11,7 +11,10 @@
     "esModuleInterop": true,
     "strict": true
   },
-  "exclude": ["build"],
-  "include": ["src"]
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "exclude": ["build"]
 }
-
